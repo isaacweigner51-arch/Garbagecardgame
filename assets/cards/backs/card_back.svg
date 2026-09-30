@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="252" viewBox="0 0 180 252">
+  <rect x="2" y="2" width="176" height="248" rx="13" fill="#f7f0e5" stroke="#1f1b18" stroke-width="3"/>
+  <rect x="9" y="9" width="162" height="234" rx="9" fill="#a92f2b" stroke="#e6c7ae" stroke-width="2"/>
+  <rect x="15" y="15" width="150" height="222" rx="7" fill="none" stroke="#f4dfc8" stroke-width="2"/>
+  <defs>
+    <pattern id="p" width="22" height="22" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="22" height="22" fill="#a92f2b"/>
+      <path d="M0 11h22M11 0v22" stroke="#e7bca4" stroke-width="1" opacity=".78"/>
+      <circle cx="11" cy="11" r="3.2" fill="none" stroke="#f1d4bd" stroke-width="1.2"/>
+    </pattern>
+  </defs>
+  <rect x="19" y="19" width="142" height="214" rx="5" fill="url(#p)"/>
+  <g fill="none" stroke="#f5dfca" opacity=".9">
+    <ellipse cx="90" cy="126" rx="45" ry="74" stroke-width="2"/>
+    <ellipse cx="90" cy="126" rx="32" ry="57" stroke-width="1.5"/>
+    <path d="M90 62c13 18 22 39 22 64s-9 46-22 64c-13-18-22-39-22-64s9-46 22-64z" stroke-width="1.4"/>
+    <path d="M50 126c19-10 30-28 40-50 10 22 21 40 40 50-19 10-30 28-40 50-10-22-21-40-40-50z" stroke-width="1.4"/>
+  </g>
+  <circle cx="90" cy="126" r="6" fill="#f1d4bd"/>
+</svg>

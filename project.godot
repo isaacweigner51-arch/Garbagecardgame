@@ -1,0 +1,32 @@
+; Engine configuration file.
+; Godot 4.7 prototype for the Garbage / Trash card game.
+config_version=5
+
+[application]
+config/name="Garbage: Road to Ace"
+run/main_scene="res://scenes/Main.tscn"
+config/features=PackedStringArray("4.7", "Mobile")
+config/icon="res://assets/icon.svg"
+
+[display]
+window/size/viewport_width=720
+window/size/viewport_height=1280
+window/size/window_width_override=540
+window/size/window_height_override=960
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+window/handheld/orientation=1
+
+[rendering]
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/default_filters/use_nearest_mipmap_filter=false
+
+[audio]
+default_bus_layout="res://default_bus_layout.tres"
+
+[input]
+ui_accept={
+"deadzone": 0.5,
+"events": [Object(InputEventKey,"physical_keycode":32,"unicode":32)]
+}
